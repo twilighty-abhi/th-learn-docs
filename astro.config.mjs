@@ -7,7 +7,7 @@ export default defineConfig({
 		starlight({
 			title: 'My Docs',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://www.tinkerhub.org/',
 			},
 			sidebar: [
 				{
@@ -15,11 +15,16 @@ export default defineConfig({
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Example Guide', link: '/guides/example/' },
+						
 					],
 				},
 				{
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
+				},
+				{
+					label: 'Practicals',
+					autogenerate: { directory: 'Learning practically' },
 				},
 			],
 		}),
