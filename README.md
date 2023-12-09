@@ -1,6 +1,6 @@
 # Tinkerhub Learning Docs
 
-[![Built with Astro](https://astro.build)
+[Built with Astro](https://astro.build)
 
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
